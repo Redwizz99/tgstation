@@ -130,15 +130,8 @@
 	if(!on)
 		return
 
-	if(senders.len)
-		if(senders.len < next_index)
-			next_index = 1
-
-		var/obj/machinery/portable_atmospherics/scrubber/bluespace/scrubber = senders[next_index]
+	for(var/obj/machinery/portable_atmospherics/scrubber/bluespace/scrubber as anything in senders)
 		scrubber.transfer_gas(air_contents)
-
-		next_index++
-
 		use_energy(active_power_usage * seconds_per_tick)
 
 //Track a scrubber that has linked to us, listening for its deletion so we can drop it.
