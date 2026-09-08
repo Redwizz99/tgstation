@@ -101,3 +101,19 @@
   Techbot121:
   - rscadd: hitsounds to cans
   - sound: added can_hit.ogg
+2026-09-08:
+  ArcaneMusic:
+  - rscadd: cargo can now buy a "gardening" crate on broad spectrum bands filled with
+      pitchforks and torches.
+  JohnFulpWillard:
+  - qol: Changed thumbs up/down & scratch head emote when manually typing to thumbsup,
+      thumbsdown & scratchhead
+  - rscdel: Operating computers no longer has the Experiments tab if there's no research
+      servers in existence.
+  Melbert:
+  - qol: Loot panel objects can be interacted with while lying down.
+  - qol: Loot panel objects can be interacted with at range if you have telekinesis
+      or a weapon with reach.
+  - qol: Blind mobs can see names in the loot panel again, but the panel auto-closes
+      when further than two tiles away.
+  - bugfix: Cables are properly obscured by windows or airlocks
